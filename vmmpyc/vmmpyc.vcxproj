@@ -108,6 +108,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>C:\Users\colin\AppData\Local\Programs\Python\Python310\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies>leechcore.lib;vmm.lib;Ws2_32.lib</AdditionalDependencies>
@@ -115,6 +116,7 @@
       </IgnoreAllDefaultLibraries>
       <ProgramDatabaseFile>$(OutDir)\lib\$(TargetName).pdb</ProgramDatabaseFile>
       <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <AdditionalLibraryDirectories>C:\Users\colin\AppData\Local\Programs\Python\Python310\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>
